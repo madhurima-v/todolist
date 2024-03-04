@@ -1,0 +1,32 @@
+*{
+    background-color: wheat;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.line{
+  border: 1px solid black;
+}
+
+.form{
+    text-align: center;
+    padding: 25px;
+}
+
+.table {
+    border: 2px solid black;
+}
+
+.table th{
+    border: 2px solid black;
+}
+
+.table td{
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+}
