@@ -18,14 +18,32 @@ var a = [];
 var b = [];
 
 app.get('/', function(req,res){
-    res.render('index.ejs',{
+    res.render('index.ejs')
+})
+
+
+app.get('/about', function(req,res){
+    res.render('about.ejs')
+})
+
+app.get('/contact', function(req,res){
+    res.render('contact.ejs',{
         'count': count,
         'fname': a,
         'lname': b
     })
 })
 
-app.post('/', function(req,res){
+app.get('/header', function(req,res){
+    res.render('header.ejs')
+})
+
+app.get('/footer', function(req,res){
+    res.render('footer.ejs')
+})
+
+
+app.post('/contact', function(req,res){
 
     count++;
 
@@ -33,7 +51,7 @@ app.post('/', function(req,res){
     b.push(req.body.lname)
    
 
-    res.render('index.ejs', {
+    res.render('contact.ejs', {
         'count': count,
         'fname': a,
         'lname': b

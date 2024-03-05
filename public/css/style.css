@@ -1,5 +1,10 @@
 *{
-    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    border: 0;
 }
 
 h1{
@@ -30,3 +35,14 @@ h1{
     width: 200px;
     height: 60px;
 }
+
+
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
