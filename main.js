@@ -58,6 +58,19 @@ app.post('/contact', function(req,res){
       })
 })
 
+app.post('/clear', function(req,res){
+
+    count = 0;
+    a = [];
+    b = [];
+
+    res.render('contact.ejs', {
+        'count': 0,
+        'fname': '',
+        'lname': ''
+      })
+})
+
 
 app.listen(4000, function(req,res){
     console.log('server started')

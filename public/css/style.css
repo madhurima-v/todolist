@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     border: 0;
 }
 
-h1{
+h1 {
     font-size: 40px;
     text-align: center;
 }
 
-.line{
-  border: 1px solid black;
+.line {
+    border: 1px solid black;
 }
 
-.form{
+.form {
     text-align: center;
     padding: 25px;
 }
@@ -25,11 +25,11 @@ h1{
     border: 2px solid black;
 }
 
-.table th{
+.table th {
     border: 2px solid black;
 }
 
-.table td{
+.table td {
     border: 2px solid black;
     text-align: center;
     width: 200px;
@@ -39,10 +39,19 @@ h1{
 
 
 
-footer{
+button {
+    width: 200px;
+    border-radius: 50px;
+    background: transparent;
+}
+
+footer {
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
-
+.hero {
+    width: 100%;
+    min-height: 100vh;
+}
